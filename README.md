@@ -1,8 +1,35 @@
 # Finite-Difference-Method-Perturbation-Theory-Study
-This project implements the Finite Difference Method in order to solve the time-independant Schrodinger equation for both the Double Well and Quantum Harmonic Oscillator Potentials. First-Order Perturbation theory is also applied to the QHO, to analyse the affect of a Quartic Perturbation on two different Eigenstates, namely the Ground State and first Excited State. 
+This project implements the Finite Difference Method (FDM) to solve the time-independent Schrödinger equation for both the Double Well and Quantum Harmonic Oscillator (QHO) potentials. Additionally, First-Order Perturbation Theory is applied to the QHO to analyze the effect of a quartic perturbation on the ground state and the first excited state.
 
-Included in this repository are the three C++ files created (Header, implementation & test file), the Python Jupyter Notebook used in the creation of the Graphs for this project, and also a PDF outlining the Theory behind the Project, as well as analysis and discussion of the produced results. 
+## Contents 
+ - $\textbf{C++ Files:}$ Includes header, implementation, and test files.
+ - $\textbf{Python Jupyter Notebook:}$ Used for graph creation and analysis.
+ - $\textbf{PDF Document:}$ Outlines the theory behind the project and provides analysis and discussion of the results.
 
-This project used an OOP approach, with methods for discretising the x-axis (only a 1D problem here!), creating the Kinetic Matrix based on the FDM method, a method which allowed for the choice of potential to investigate (two at the time of writing), and finally a method for the calculation of Eigenvectors & Eigenvalues using the Eigen library. These results were then written to text files, and analysed using Matplotlib in a Python Jupyter Notebook. I prefer to use Python for graphical analysis due to the wide variety of Graphical Libraries. Once these graphs were obtained, the Eigenvectors and Eigenvalues were then compared to analytical predictions. 
+ ## Project Overview
+This project uses an Object-Oriented Programming (OOP) approach to achieve the following:
 
-A first order perturbation was also applied to the Quantum Harmonic Oscillator. Only first order perturbation was considered in this project. The impact of the perturbation on the first two Eigenvalues/Eigenvectors was again analysed, and compared to the results obtained from the FDM approach used earlier in this project.
+ - $\textbf{Discretization of the x-axis:}$ Handles the problem in one dimension.
+ - $\textbf{Creation of the Kinetic Matrix:}$ Based on the FDM method.
+ - $\textbf{Choice of Potential:}$ Allows for the investigation of different potentials (two potentials are available at the time of writing).
+ - $\textbf{Calculation of Eigenvectors & Eigenvalues:}$ Utilizes the Eigen library for these calculations.
+ - $\textbf{Data Output:}$ Results are written to text files for further analysis.
+
+ ## Analysis and Graphical Representation
+The results obtained from the C++ implementation are analyzed and graphed using Python's Matplotlib library in a Jupyter Notebook. This approach is preferred for its flexibility and the wide variety of graphical libraries available in Python.
+
+ ## Comparison with Analytical Predictions
+The Eigenvectors and Eigenvalues calculated using the FDM are compared to analytical predictions to verify the accuracy of the numerical methods used.
+
+ ## First-Order Perturbation Theory
+A first-order perturbation is applied to the Quantum Harmonic Oscillator. The impact of this perturbation on the first two eigenvalues and eigenvectors is analyzed and compared with the results obtained from the FDM approach.
+
+## Dependencies
+$\textbf{C++:}$
+ - Eigen library for linear algebra operations.
+$\textbf{Python:}$
+ - Matplotlib for plotting graphs.
+ - Jupyter Notebook for interactive analysis.
+
+## Conclusion
+This project demonstrates the application of the Finite Difference Method and First-Order Perturbation Theory to solve and analyze quantum mechanical systems. The results are validated against analytical predictions, providing a comprehensive understanding of the methods and their accuracy.
