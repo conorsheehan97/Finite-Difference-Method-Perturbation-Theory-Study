@@ -11,7 +11,7 @@ This project uses an Object-Oriented Programming (OOP) approach to achieve the f
 
  - $\textbf{Discretization of the x-axis:}$ Handles the problem in one dimension.
  - $\textbf{Creation of the Kinetic Matrix:}$ Based on the FDM method.
- - $\textbf{Choice of Potential:}$ Allows for the investigation of different potentials (two potentials are available at the time of writing).
+ - $\textbf{Choice of Potential:}$ Allows for the investigation of different potentials(two potentials are available at the time of writing).
  - $\textbf{Calculation of Eigenvectors & Eigenvalues:}$ Utilizes the Eigen library for these calculations.
  - $\textbf{Data Output:}$ Results are written to text files for further analysis.
 
