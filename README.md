@@ -27,6 +27,7 @@ A first-order perturbation is applied to the Quantum Harmonic Oscillator. The im
 ## Dependencies
 $\textbf{C++:}$
  - Eigen library for linear algebra operations.
+   
 $\textbf{Python:}$
  - Matplotlib for plotting graphs.
  - Jupyter Notebook for interactive analysis.
